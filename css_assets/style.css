@@ -1,0 +1,296 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color:  #f8f1f4;
+    color: #333;
+}
+nav{
+    background: color #2b2024 ;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h2{
+    color:white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+main p{
+    font-size: 18px;
+}
+
+main a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #b76e79;
+    color: white;
+    text-decoration: none;
+
+    footer{
+        text-align: center;
+        padding: 20px;
+        background-color: #2b2024;
+        color: white;
+    }
+}
+    .logo{
+        width:180px;
+        height:auto;
+    }
+
+    .booking-image{
+        width: 250px;
+        height:auto;
+    }
+
+/* ---- Part 2: Website layout ---- */
+
+/*  
+
+   Bee's Luxe Hair Studio 
+
+   Main CSS file 
+
+   This file controls the design of all pages. 
+
+*/ 
+
+
+/* ---------- BASIC PAGE STYLE ---------- */ 
+
+ 
+
+/* This controls the whole website */ 
+
+body { 
+
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #fff8f5; 
+    color: #333; 
+
+} 
+
+
+/* ---------- HEADER ---------- */ 
+
+ 
+/* This controls the top of the website */ 
+header { 
+    text-align: center; 
+    padding: 20px; 
+    background-color: #f3e1dc; 
+} 
+
+ 
+/* This section controls the logo */ 
+
+.logo { 
+    width: 180px; 
+    height: auto; 
+} 
+
+/* ---------- WEBSITE TITLE ---------- */ 
+
+h1 { 
+    font-size: 32px; 
+    margin: 10px 0; 
+} 
+
+h2 { 
+    font-size: 26px; 
+} 
+
+/* ---------- NAVIGATION PANEL ---------- */ 
+
+/* This controls the navigation menu */ 
+
+nav ul { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 15px 0; 
+} 
+
+/* This places the links next to each other */ 
+nav li { 
+    display: inline-block; 
+    margin: 5px; 
+} 
+
+/* This controls the links */ 
+
+nav a { 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    background-color: #ffffff; 
+    color: #333; 
+    border-radius: 5px; 
+} 
+
+ 
+/* This changes the link when the mouse is over it */ 
+nav a:hover { 
+    background-color: #e8c8bf; 
+} 
+
+
+/* ---------- MAIN CONTENT ---------- */ 
+
+/* This controls the main content of each page */ 
+main { 
+    max-width: 1000px; 
+    margin: auto; 
+    padding: 30px; 
+} 
+
+/* ---------- IMAGES ---------- */ 
+
+/* This prevents pictures from becoming too large */ 
+
+img { 
+    max-width: 100%; 
+    height: auto; 
+} 
+
+/* Product images */ 
+
+.product-image { 
+    width: 250px; 
+    height: auto; 
+} 
+
+
+/* Booking image */ 
+.booking-image { 
+    width: 300px; 
+    height: auto; 
+
+} 
+
+
+/* ---------- SECTIONS ---------- */ 
+
+section { 
+    margin-bottom: 30px; 
+    padding: 20px; 
+} 
+
+
+/* ---------- FOOTER ---------- */ 
+
+
+footer { 
+    text-align: center; 
+    padding: 20px; 
+    background-color: #f3e1dc; 
+    margin-top: 30px; 
+} 
+
+/* ---------- RESPONSIVE DESIGN ---------- */ 
+
+/* This makes the website easier to use on cellPhones */ 
+@media screen and (max-width: 768px) { 
+    nav li { 
+        display: block; 
+        margin: 10px 0; 
+    } 
+
+    h1 { 
+        font-size: 26px; 
+    } 
+
+    main { 
+        padding: 15px; 
+    } 
+
+    .logo { 
+        width: 130px; 
+    } 
+
+
+} 
+
+/* ----- Typography ----- */
+
+/* Main text on the website */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Main headings*/
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*Smaller headings*/
+h2{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Normal paragraphs */
+p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ------- Visual Styling ------ */
+/* Gives sections a neat appearance */
+
+section{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0.1);
+}
+
+nav a:hover{
+    background-color: #e8c8bf;
+}
+
+body{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+main{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*makes all images to fit inside the screen */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.wig img{
+        width: 150px;
+        height:auto;
+    }

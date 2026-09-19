@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---The title that is showed on the browser tab-->>
+    <title>Booking | Bee's Luxe Hair Studio</title>
+
+    <Link rel="stylesheet" href="../css_assets/style.css">
+
+</head>
+<style>
+    .logo{
+        width:180px;
+        height:auto;
+    }
+</style>
+
+<body>
+    
+    <!---Header section containing the logo-->>
+    <header>
+        <img src="_images/logoo.jpg"
+        alt="Bee's Luxe Hair Studio Logo"
+        class="logo">
+
+        <h1> Bee's Luxe Hair Studio</h1>
+
+        <nav>
+
+         <ul>
+    <li><a href="index.html">Home</li></a>
+    <li><a href="about.html">About Us</li></a>
+    <li><a href="products.html">products</li></a>
+    <li><a href="services.html">services</li></a>
+    <li><a href="booking.html">booking</li></a>
+    <li><a href="contact.html">Contact</li></a>
+    </ul>
+    <!--Navigation menu linkingthe different pages to the website-->>
+    </nav>
+    </header>
+
+    
+
+    <main>
+
+        <h2>Book an appoinment</h2>
+
+        <p>
+            Please complete the form below to make 
+            a booking or product inquiry.
+
+        </p>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <br>
+            <input type="text"id="name">
+                <br><br>
+
+                <label for="email">Email Address:</label>
+
+                <br>
+                <input type="text"id="email">
+
+                <br><br>
+
+                <label for="Phone">Phone Number:</label>
+                <br>
+                <input type="tel"id="Phone">
+
+                <br><br>
+
+                <label for="request">What would you like?</label>
+                <br>
+
+                <select id="request"name="request">
+                    <option value="product">Purchase a Product</option>
+                    <option value="service">Book a Hair appoinment</option>
+                </select>
+
+                <br><br>
+
+                <label for="service">Select any type of service</label>
+                <br>
+
+                <select id="service"name="service">
+
+                    <option value="Installation">
+                        Hair Installation
+                    </option>
+
+                    <option value="Wig Treatment">
+                        Wig Treatment
+                    </option>
+
+                    <option value="Sew-in">
+                        Sew-in
+                    </option>
+
+                    <option value="house-call">
+                        house-call
+                    </option>
+                </select>
+
+                <br><br>
+
+                <label for="date">Preferred Date:</label>
+                <br>
+                <input type="date"id="date"name="date">
+
+                <br><br>
+
+                <label for="message">message/enquiry:</label>
+                <br>
+
+                <textarea id="message"
+                name="message"
+                rows="5"
+                cols="30"
+                placeholder="Enter your enquiry here">
+            </textarea>
+            <br><br>
+
+            <button type="submit">Submit Booking</button>
+
+        </form>
+
+        <h3>Booking information</h3>
+
+        <p>
+            A booking fee may be requiredto secure your appoinment
+        </p>
+
+        <p>
+            Cancellation fee may apply if an appoinment
+            is cancelled without any sufficient notice.
+        </p>
+
+        <p>
+            House calls are availabale at an additional fee
+        </p>
+
+        </main>
+
+        <footer>
+
+            <p>
+
+                &copy;2026 Bee's Luxe Hair Studio.
+                All rights reserved.
+            </p>
+        </footer>
+</body>
+</html>
